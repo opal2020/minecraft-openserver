@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false,
+  router: {
+    base: "/minecraft-openserver/",
+  },
   typescript: {
     typeCheck: false,
     strict: false,
